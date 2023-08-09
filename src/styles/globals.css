@@ -15,10 +15,32 @@
     --background-end-rgb: 0, 0, 0;
   }
 }
+@import url('https://fonts.googleapis.com/css2?family=Catamaran&family=Open+Sans&display=swap');
+
+html {
+  overflow: hidden;
+  height: 100%
+}
 
 body {
   color: rgb(var(--foreground-rgb));
-  background: #1b1b2b;
+  height: 100%;
+  overflow: auto;
+  overscroll-behavior-y: none;
+  background-color: #111111;
+  font-family: 'Open Sans', sans-serif;
+}
+
+#home-decor {
+  transform: rotate(-15deg);
+}
+
+.heading {
+  font-family: 'Catamaran', sans-serif;
+}
+
+#div {
+  box-shadow: 0 0 7px rgba(0,0,0,.9)s
 }
 
 #triangle polygon {
