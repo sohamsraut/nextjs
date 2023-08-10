@@ -1,7 +1,7 @@
 export default function footer() {
   return (
     <footer
-    className="bg-[#4db5ff] relative w-full backdrop-opacity-10 text-[#1b1b2b]" style={{backgroundImage: "linear-gradient(#4db5ff, #4da5ff)"}}
+    className="bg-[#ffb400] w-full backdrop-opacity-10 text-[#1b1b2b]" style={{backgroundImage: "linear-gradient(#ffb400, #4da5ff)"}}
     >
       <div className="max-w-screen-3xl flex flex-col items-center justify-between">
         <div className="text-4xl mt-16 font-bold heading">Soham Raut</div>

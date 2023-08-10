@@ -8,7 +8,7 @@ export default function baseLayout(props) {
     <div className="h-full w-full flex justify-center items-center">
       {props.children}
     </div>
-    <Footer />
+    {/* <Footer /> */}
   </div>
   );
 }

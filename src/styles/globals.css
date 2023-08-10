@@ -23,12 +23,16 @@ html {
 }
 
 body {
-  color: rgb(var(--foreground-rgb));
+  color: #f5f6f7;
   height: 100%;
   overflow: auto;
   overscroll-behavior-y: none;
   background-color: #111111;
   font-family: 'Open Sans', sans-serif;
+}
+
+.para {
+  color: hsla(0,0%,100%,.6);
 }
 
 #home-decor {
