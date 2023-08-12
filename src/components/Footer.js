@@ -5,7 +5,7 @@ export default function footer() {
     >
       <div className="max-w-screen-3xl flex flex-col items-center justify-between">
         <div className="text-4xl mt-16 font-bold heading">Soham Raut</div>
-        <ul className="my-7 flex space-x-7">
+        <ul className="my-7 flex md:flex-row flex-wrap flex-col justify-center items-center md:space-x-7 space-y-3 md:space-y-0">
           <li><a href="#home" className="hover:underline hover:underline-offset-4">Home</a></li>
           <li><a href="#about" className="hover:underline hover:underline-offset-4">About</a></li>
           <li><a href="#skills" className="hover:underline hover:underline-offset-4">Skills</a></li>
