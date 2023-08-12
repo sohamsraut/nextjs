@@ -15,32 +15,77 @@
     --background-end-rgb: 0, 0, 0;
   }
 }
-@import url('https://fonts.googleapis.com/css2?family=Catamaran&family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Catamaran:wght@400;600&family=Open+Sans&family=Poppins:wght@400;800&display=swap');
+* {
+  margin: 0px;
+  box-sizing: border-box;
+}
 
 html {
   overflow: hidden;
-  height: 100%
+  height: 100%;
 }
 
 body {
   color: #f5f6f7;
   height: 100%;
-  overflow: auto;
+  overflow-x: hidden;
   overscroll-behavior-y: none;
   background-color: #111111;
   font-family: 'Open Sans', sans-serif;
+  scroll-behavior: smooth;
 }
+
 
 .para {
   color: hsla(0,0%,100%,.6);
 }
 
+.border-faint {
+  border: 2px solid hsla(0, 0%, 100%, 0.2);
+}
+
 #home-decor {
-  transform: rotate(-15deg);
+  transform: rotate(-45deg);
+}
+
+#home-decor-2 {
+  transform: rotate(-20deg);
+}
+
+.heading2 {
+  font-family: 'Poppins', sans-serif;
 }
 
 .heading {
   font-family: 'Catamaran', sans-serif;
+}
+
+.cla {
+  font-size: 2rem;
+  left: 0;
+  letter-spacing: 10px;
+  line-height: .7;
+  position: absolute;
+  right: 0;
+  top: -30%;
+  text-transform: uppercase;
+  font-weight: 800;
+  transform: translateY(-50%);
+  color: hsla(0,0%,100%,.07);
+}
+
+
+@media only screen and (min-width: 768px) {
+  /* For desktop: */
+  .cla {
+    font-size: 5rem;
+    top: 50%;
+  }
+
+  #home-decor {
+    transform: rotate(-15deg);
+  }
 }
 
 #div {
