@@ -29,8 +29,8 @@ export default function projectSection() {
                 <time className="block mb-2 font-normal leading-none para">December 2022</time>
                 <p className=" text-base font-normal para"><span className="font-semibold text-[#ffb400]">Skills: </span>HTML, CSS, JavaScript, Bootstrap</p>
                 <div className="flex space-x-5 justify-center">
-                  <a target="_blank" href="https://github.com/sohamsraut" className="text-base py-3 px-4 rounded-md border-2  border-[#ffb400] text-[#ffb400] hover:bg-[#ffb400] hover:text-[#111] my-4 heading font-semibold">GitHub</a>
-                  <a target="_blank" href="https://github.com/sohamsraut" className="text-base py-3 px-4 rounded-md border-2 border-[#ffb400] text-[#ffb400] hover:bg-[#ffb400] hover:text-[#111] my-4 heading font-semibold">Live Demo</a>
+                  <a target="_blank" href="https://github.com/sohamsraut/old-website" className="text-base py-3 px-4 rounded-md border-2  border-[#ffb400] text-[#ffb400] hover:bg-[#ffb400] hover:text-[#111] my-4 heading font-semibold">GitHub</a>
+                  <a target="_blank" href="/old-website" className="text-base py-3 px-4 rounded-md border-2 border-[#ffb400] text-[#ffb400] hover:bg-[#ffb400] hover:text-[#111] my-4 heading font-semibold">Live Demo</a>
                 </div>
               </div>
             </div>
@@ -61,8 +61,8 @@ export default function projectSection() {
                 <time className="block mb-2 font-normal leading-none para">June 2022</time>
                 <p className=" text-base font-normal para"><span className="font-semibold text-[#ffb400]">Skills: </span>HTML, CSS, JavaScript</p>
                 <div className="flex space-x-5 justify-center">
-                  <a target="_blank" href="https://github.com/sohamsraut" className="text-base py-3 px-4 rounded-md border-2  border-[#ffb400] text-[#ffb400] hover:bg-[#ffb400] hover:text-[#111] font-semibold heading my-4">GitHub</a>
-                  <a target="_blank" href="https://github.com/sohamsraut" className="text-base py-3 px-4 rounded-md border-2 border-[#ffb400] text-[#ffb400] hover:bg-[#ffb400] hover:text-[#111] font-semibold heading my-4">Live Demo</a>
+                  <a target="_blank" href="https://github.com/sohamsraut/tic-tac-toe-webapp" className="text-base py-3 px-4 rounded-md border-2  border-[#ffb400] text-[#ffb400] hover:bg-[#ffb400] hover:text-[#111] font-semibold heading my-4">GitHub</a>
+                  <a target="_blank" href="/tic-tac-toe-webapp" className="text-base py-3 px-4 rounded-md border-2 border-[#ffb400] text-[#ffb400] hover:bg-[#ffb400] hover:text-[#111] font-semibold heading my-4">Live Demo</a>
                 </div>
               </div>
             </div>
@@ -78,7 +78,6 @@ export default function projectSection() {
                 <p className=" text-base font-normal para"><span className="font-semibold text-[#ffb400]">Skills: </span>Python</p>
                 <div className="flex space-x-5 justify-center">
                   <a target="_blank" href="https://github.com/sohamsraut" className="text-base py-3 px-4 rounded-md border-2  border-[#ffb400] text-[#ffb400] hover:bg-[#ffb400] hover:text-[#111] my-4 heading font-semibold">GitHub</a>
-                  <a target="_blank" href="https://github.com/sohamsraut" className="text-base py-3 px-4 rounded-md border-2 border-[#ffb400] text-[#ffb400] hover:bg-[#ffb400] hover:text-[#111] my-4 heading font-semibold">Live Demo</a>
                 </div>
               </div>
             </div>
