@@ -8,6 +8,7 @@ import ExperienceSection from "@/components/experience";
 import ProjectSection from "@/components/projects";
 import ContactForm from "@/components/contactForm";
 import { useState, useEffect } from "react";
+import LoaderComponent from "@/components/loader";
 
 // #1b1b1b and #ffb400
 export default function home() {
@@ -15,6 +16,8 @@ export default function home() {
     width: undefined,
     height: undefined
   });
+
+  const [loading, setLoading] = useState(true);
 
   useEffect(() => {
     function handleResize() {
@@ -32,6 +35,10 @@ export default function home() {
     // Don't forget to remove event listener on cleanup
     return () => window.removeEventListener("resize", handleResize);
   }, []);
+  if (loading) {
+    setTimeout(() => {setLoading(false)}, 3000);
+    return <LoaderComponent />
+  }
   return (
     <div className="w-full h-full flex flex-col">
       <Head>
