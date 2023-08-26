@@ -14,9 +14,23 @@ export default function experienceSection() {
               <div>
                 <h3 className="flex items-center text-lg font-semibold">Candent Technologies Pvt. Ltd. </h3>
                 <h3 className="flex items-center mb-1 text-base italic">Software Engineer Intern</h3>
-                <time className="block mb-2 font-normal leading-none para">July 2023 - Present</time>
-                <p className=" text-base font-normal">Pune, India</p>
+                <time className="block mb-1 font-normal leading-none para">July 2023 - Present</time>
+                <p className=" text-base para mb-2 font-normal">Pune, India</p>
                 <p className="text-base mb-4 font-normal max-w-[630px]">Worked with a team of skilled developers on a full-stack application in a scrum-based environment using Next.js, MongoDB, and Google APIs.</p>
+              </div>
+            </div>
+          </li>
+          <li className="mb-10 ml-6 rounded-md hover:shadow-md hover:bg-[#1b1b1b]">
+            <span className="absolute flex items-center justify-center w-6 h-6 rounded-full -left-3 ring-4 ring-[#ffb400] bg-[#111]">
+            </span>
+            <div className="flex items-center ">
+              <img src="./allen.png" className="h-[100px] ms-3 me-7"/>
+              <div>
+                <h3 className="flex items-center text-lg font-semibold">Paul G. Allen School of Computer Science and Engineering </h3>
+                <h3 className="flex items-center mb-1 text-base italic">Undergraduate Researcher</h3>
+                <time className="block mb-1 font-normal leading-none para">January 2023 - Present</time>
+                <p className=" text-base para mb-2 font-normal">Seattle, WA</p>
+                <p className="text-base mb-4 font-normal max-w-[630px]">Project: Automatically Decomposing D3 Visualizations, creating reusable components to modularise D3 code for an easier coding experience, under the guidance of Prof. Leilani Battle.</p>
               </div>
             </div>
           </li>
@@ -28,8 +42,8 @@ export default function experienceSection() {
               <div>
                 <h3 className="flex items-center text-lg font-semibold">Washington Hyperloop</h3>
                 <h3 className="flex items-center mb-1 text-base italic">Controls Team Member</h3>
-                <time className="block mb-2 font-normal leading-none para">November 2022 - Present</time>
-                <p className=" text-base font-normal">Seattle, WA</p>
+                <time className="block mb-1 font-normal leading-none para">November 2022 - Present</time>
+                <p className=" text-base para mb-2 font-normal">Seattle, WA</p>
                 <p className="text-base font-normal max-w-[630px] mb-4">Worked with a team of engineers and developers to craft a robotic navigation system for a Tunnel Boring Machine built for the Not-A-Boring Competition</p>
               </div>
             </div>
