@@ -44,7 +44,7 @@ export default function aboutSection() {
         <div className="border-2 rounded-md mx-5 my-2 px-5 py-2 w-[30%] sm:min-w-[350px] min-w-[80%] flex items-center border-[#ffb400]">
         <img src="./icons/world.svg" className="h-[36px] w-[36px]"/>
           <div className="ms-5">
-            <p className="md:text-2xl text-xl text-[#4db5ff] heading mt-1 font-semibold">Fantastic 4</p>
+            <p className="md:text-2xl text-xl text-[#4db5ff] heading mt-1 font-semibold">Multilingual</p>
             <p className="para text-sm">Fluent in English, Marathi, Hindi, and French</p>
           </div>
         </div>
