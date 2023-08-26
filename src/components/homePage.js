@@ -1,10 +1,10 @@
 
-export default function homePageComponent() {
+export default function homePageComponent({width}) {
   return (
       <section className="h-fit md:min-h-full w-full flex items-center justify-center" id="home">
         <div className=" fixed md:h-[200%] h-[100%] w-[300%] md:w-full md:left-[-83%] left-[-6%] top-[-40%] md:top-[-50%] bg-[#ffb400]" id="home-decor"></div>
         <div className=" flex flex-col md:flex-row min-h-full w-full py-5 items-center md:justify-between justify-center">
-          <img src="./placeholder.jpg" className="lg:h-4/5 md:h-3/5 sm:h-[300px] sm:w-[300px] h-[250px] w-[250px] mt-10 mb-5 md:mb-0 rounded-full md:rounded-3xl z-[111] left-10 lg:ms-20 md:ms-10 2xl:ms-60"/>
+          <img src={width < 768 ? "./myphoto-mobile.jpg" : "./myphoto.jpg"} className="lg:h-4/5 md:h-3/5 sm:h-[300px] sm:w-[300px] h-[250px] w-[250px] mt-10 mb-5 md:mb-0 rounded-full md:rounded-3xl z-[111] left-10 lg:ms-20 md:ms-10"/>
           <div className="flex flex-col items-center justify-center w-full md:ms-10 mt-10 md:pt-20 pt-5 text-xl z-[111] text-[#f5f6f7] bg-[#111]/[0.9] xl:bg-transparent">
             <p className="text-lg">Hello there, I'm</p>
             <p className="heading lg:text-7xl sm:text-6xl text-5xl mt-3 font-bold">Soham Raut</p>

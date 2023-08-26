@@ -7,15 +7,37 @@ import EducationSection from "@/components/education";
 import ExperienceSection from "@/components/experience";
 import ProjectSection from "@/components/projects";
 import ContactForm from "@/components/contactForm";
+import { useState, useEffect } from "react";
 
 // #1b1b1b and #ffb400
 export default function home() {
+  const [windowSize, setWindowSize] = useState({
+    width: undefined,
+    height: undefined
+  });
+
+  useEffect(() => {
+    function handleResize() {
+      setWindowSize({
+        width: window.innerWidth,
+        height: window.innerHeight
+      });
+    }
+
+    window.addEventListener("resize", handleResize);
+
+    // Call handler right away so state gets updated with initial window size
+    handleResize();
+
+    // Don't forget to remove event listener on cleanup
+    return () => window.removeEventListener("resize", handleResize);
+  }, []);
   return (
     <div className="w-full h-full flex flex-col">
       <Head>
         <title>Soham Raut | Home</title>
       </Head>
-      <HomePageComponent />
+      <HomePageComponent width={windowSize.width}/>
       <AboutSection />
       <SkillSection />
       <EducationSection />
