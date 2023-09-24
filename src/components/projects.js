@@ -28,8 +28,10 @@ export default function projectSection() {
                 <h3 className="flex items-center text-center text-lg font-semibold mb-1">Phaser Game</h3>
                 <time className="block mb-2 font-normal leading-none para">August 2023</time>
                 <p className=" text-base font-normal para"><span className="font-semibold text-[#ffb400]">Skills: </span> HTML, JavaScript, Phaser</p>
-                <a target="_blank" href="https://github.com/sohamsraut/phaser-game" className="text-base py-3 px-4 rounded-md border-2 border-[#ffb400] text-[#ffb400] hover:bg-[#ffb400] hover:text-[#111] my-4 heading font-semibold">GitHub</a>
-                <a target="_blank" href="https://sohamsraut.github.io/phaser-game" className="text-base py-3 px-4 rounded-md border-2 border-[#ffb400] text-[#ffb400] hover:bg-[#ffb400] hover:text-[#111] my-4 heading font-semibold">Demo</a>
+                <div className="flex space-x-5 justify-center">
+                  <a target="_blank" href="https://github.com/sohamsraut/phaser-game" className="text-base py-3 px-4 rounded-md border-2  border-[#ffb400] text-[#ffb400] hover:bg-[#ffb400] hover:text-[#111] my-4 heading font-semibold">GitHub</a>
+                  <a target="_blank" href="https://sohamsraut.github.io/phaser-game" className="text-base py-3 px-4 rounded-md border-2 border-[#ffb400] text-[#ffb400] hover:bg-[#ffb400] hover:text-[#111] my-4 heading font-semibold">Demo</a>
+                </div>
               </div>
             </div>
           </li>
