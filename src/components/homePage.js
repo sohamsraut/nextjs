@@ -17,7 +17,7 @@ export default function homePageComponent({width}) {
               <li><a href="mailto:sohamsraut97@gmail.com" target="_blank" className="bg-white p-1 flex rounded-md" ><img src="./envelope-solid.svg" className="w-[40px] h-[40px]"/></a></li>
               <li><a href="https://github.com/sohamsraut" target="_blank" className="bg-white p-1 flex rounded-md"><img src="./square-github.svg" className="w-[40px] h-[40px]"/></a></li>
               <li><a href="https://linkedin.com/in/sohamsraut" target="_blank" className="bg-white p-1 flex rounded-md"><img src="./linkedin.svg" className="w-[40px] h-[40px]"/></a></li>
-              <li><a href="./Resume_SohamRaut.pdf" className="bg-white p-1 flex rounded-md" ><img src="./cv.png" className="w-[40px] h-[40px]"/></a></li>
+              <li><a href="./resume_sohamraut.pdf" className="bg-white p-1 flex rounded-md" ><img src="./cv.png" className="w-[40px] h-[40px]"/></a></li>
             </ul>
             <svg xmlns="http://www.w3.org/2000/svg" className="fill-[#ffb400] h-[80px] mt-5 md:mb-20 mb-30" viewBox="0 0 320 512"><path d="M137.4 374.6c12.5 12.5 32.8 12.5 45.3 0l128-128c9.2-9.2 11.9-22.9 6.9-34.9s-16.6-19.8-29.6-19.8L32 192c-12.9 0-24.6 7.8-29.6 19.8s-2.2 25.7 6.9 34.9l128 128z"/></svg>
           </div>
