@@ -6,21 +6,7 @@ export default function experienceSection() {
         <p className="w-full text-center heading2 cla">Experience</p>
       </div>
       <ol className="relative border-l border-[#ffb400] flex flex-col mx-auto my-10">
-          <li className="mb-10 ml-6 rounded-md hover:shadow-md hover:bg-[#1b1b1b]">
-            <span className="absolute flex items-center justify-center w-6 h-6 rounded-full -left-3 ring-4 ring-[#ffb400] bg-[#111]">
-            </span>
-            <div className="flex items-center ">
-              <img src="./candent.jpg" className="h-[100px] ms-3 me-7"/>
-              <div>
-                <h3 className="flex items-center text-lg font-semibold">Candent Technologies Pvt. Ltd. </h3>
-                <h3 className="flex items-center mb-1 text-base italic">Software Engineer Intern</h3>
-                <time className="block mb-1 font-normal leading-none para">July 2023 - Present</time>
-                <p className=" text-base para mb-2 font-normal">Pune, India</p>
-                <p className="text-base mb-4 font-normal max-w-[630px]">Worked with a team of skilled developers on a full-stack application in a scrum-based environment using Next.js, MongoDB, and Google APIs.</p>
-              </div>
-            </div>
-          </li>
-          <li className="mb-10 ml-6 rounded-md hover:shadow-md hover:bg-[#1b1b1b]">
+      <li className="mb-10 ml-6 rounded-md hover:shadow-md hover:bg-[#1b1b1b]">
             <span className="absolute flex items-center justify-center w-6 h-6 rounded-full -left-3 ring-4 ring-[#ffb400] bg-[#111]">
             </span>
             <div className="flex items-center ">
@@ -30,7 +16,21 @@ export default function experienceSection() {
                 <h3 className="flex items-center mb-1 text-base italic">Undergraduate Researcher</h3>
                 <time className="block mb-1 font-normal leading-none para">January 2023 - Present</time>
                 <p className=" text-base para mb-2 font-normal">Seattle, WA</p>
-                <p className="text-base mb-4 font-normal max-w-[630px]">Project: Automatically Decomposing D3 Visualizations, creating reusable components to modularise D3 code for an easier coding experience, under the guidance of Prof. Leilani Battle.</p>
+                <p className="text-base mb-4 font-normal max-w-[630px]">Project: Automatically Decomposing D3 Visualizations, automating the process of creating reusable components to modularise D3 code for an easier coding experience, under the guidance of Prof. Leilani Battle.</p>
+              </div>
+            </div>
+          </li>
+          <li className="mb-10 ml-6 rounded-md hover:shadow-md hover:bg-[#1b1b1b]">
+            <span className="absolute flex items-center justify-center w-6 h-6 rounded-full -left-3 ring-4 ring-[#ffb400] bg-[#111]">
+            </span>
+            <div className="flex items-center ">
+              <img src="./candent.jpg" className="h-[100px] ms-3 me-7"/>
+              <div>
+                <h3 className="flex items-center text-lg font-semibold">Candent Technologies Pvt. Ltd. </h3>
+                <h3 className="flex items-center mb-1 text-base italic">Software Engineer Intern</h3>
+                <time className="block mb-1 font-normal leading-none para">July 2023 - September 2023</time>
+                <p className=" text-base para mb-2 font-normal">Pune, India</p>
+                <p className="text-base mb-4 font-normal max-w-[630px]">Worked with a team of skilled developers on a full-stack application in a scrum-based environment using Next.js, MongoDB, and Google APIs.</p>
               </div>
             </div>
           </li>
