@@ -10,7 +10,7 @@ export default function projectSection() {
             <span className="absolute flex items-center justify-center w-6 h-6 rounded-full -left-3 ring-4 ring-[#ffb400] bg-[#111]">
             </span>
             <div className="flex flex-col items-center justify-center mx-4 my-3">
-              <img src="./spam-filter.jpg" className="my-3 h-[170px] overflow-hidden mx-3 rounded-xl"/>
+              <img src="./spot_logo_transparent.png" className="my-3 h-[170px] overflow-hidden mx-3 rounded-xl"/>
               <div className="flex flex-col items-center">
                 <h3 className="flex items-center text-center text-lg font-semibold mb-1">Spot</h3>
                 <time className="block mb-2 font-normal leading-none para">DubHacks, October 2023</time>
