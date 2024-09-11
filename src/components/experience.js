@@ -42,7 +42,7 @@ export default function experienceSection() {
               <div>
                 <h3 className="flex items-center text-lg font-semibold">Washington Hyperloop</h3>
                 <h3 className="flex items-center mb-1 text-base italic">Controls Team Member</h3>
-                <time className="block mb-1 font-normal leading-none para">November 2022 - Present</time>
+                <time className="block mb-1 font-normal leading-none para">November 2022 - January 2024</time>
                 <p className=" text-base para mb-2 font-normal">Seattle, WA</p>
                 <p className="text-base font-normal max-w-[630px] mb-4">Worked with a team of engineers and developers to craft a robotic navigation system for a Tunnel Boring Machine built for the Not-A-Boring Competition</p>
               </div>
